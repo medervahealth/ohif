@@ -1,6 +1,7 @@
 {
   "studies": [
     {
+      "StudyInstanceUID": "case-1",
       "series": [
         {
           "instances": [
