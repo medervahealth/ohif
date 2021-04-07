@@ -38,7 +38,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb://app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
+                "url": "dicomweb: //app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
              },
              {
                 "metadata": {
@@ -62,7 +62,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb:https://app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
+                "url": "dicomweb: //app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
              }
            ]
          },
@@ -96,7 +96,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb:app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
+                "url": "dicomweb: //app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
              },
              {
                 "metadata": {
@@ -120,7 +120,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "//dicomweb:https://app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
+                "url": "//dicomweb: //app.box.com/s/kmiw2htgh225x3fjdx33laiyd0rg0mee"
              }
            ]
          }
