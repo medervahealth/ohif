@@ -38,7 +38,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617821596888x837207789540912900/IM000001"
+                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617826114307x808976391844829400/DICOMDIR"
              },
              {
                 "metadata": {
@@ -62,7 +62,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617821596888x837207789540912900/IM000001"
+                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617826114307x808976391844829400/DICOMDIR"
              }
            ]
          },
@@ -96,7 +96,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617821596888x837207789540912900/IM000001"
+                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617826114307x808976391844829400/DICOMDIR"
              },
              {
                 "metadata": {
@@ -120,7 +120,7 @@
                     "SeriesInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.121",
                     "StudyInstanceUID": "1.2.840.113619.2.5.1762583153.215519.978957063.78"
                 },
-                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617821596888x837207789540912900/IM000001"
+                "url": "dicomweb: //s3.amazonaws.com/appforest_uf/f1617826114307x808976391844829400/DICOMDIR"
              }
            ]
          }
