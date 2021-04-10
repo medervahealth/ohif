@@ -105,7 +105,7 @@ class ViewerLocalFileData extends Component {
                   ) : (
                     <>
                       <h3 style={{ cursor: 'pointer' }} onClick={onLoad}>
-                        Load viewer from url
+                        Load Viewer...
                       </h3>
                     </>
                   )}
