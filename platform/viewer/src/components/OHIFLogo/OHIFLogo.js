@@ -1,6 +1,5 @@
 import './OHIFLogo.css';
 
-import { Icon } from '@ohif/ui';
 import React from 'react';
 
 function OHIFLogo() {
@@ -9,17 +8,9 @@ function OHIFLogo() {
       target="_blank"
       rel="noopener noreferrer"
       className="header-brand"
-      href="http://ohif.org"
+      href="https://www.medervahealth.com/"
     >
-      <Icon name="ohif-logo" className="header-logo-image" />
-      {/* Logo text would fit smaller displays at two lines:
-       *
-       * Open Health
-       * Imaging Foundation
-       *
-       * Or as `OHIF` on really small displays
-       */}
-      <Icon name="ohif-text-logo" className="header-logo-text" />
+      Mederva Health
     </a>
   );
 }

@@ -100,7 +100,7 @@ class App extends Component {
 
   static defaultProps = {
     config: {
-      showStudyList: true,
+      showStudyList: false,
       oidc: [],
       extensions: [],
     },
@@ -116,7 +116,7 @@ class App extends Component {
     const { config, defaultExtensions } = props;
 
     const appDefaultConfig = {
-      showStudyList: true,
+      showStudyList: false,
       cornerstoneExtensionConfig: {},
       extensions: [],
       routerBasename: '/',
