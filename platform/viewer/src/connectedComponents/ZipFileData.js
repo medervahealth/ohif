@@ -4,10 +4,13 @@ import { metadata, utils } from '@ohif/core';
 import ConnectedViewer from './ConnectedViewer.js';
 import PropTypes from 'prop-types';
 import { extensionManager } from '../App.js';
+import { Bar } from '../components/LoadingBar';
 import Dropzone from 'react-dropzone';
 import filesToStudies from '../lib/filesToStudies';
 import './ViewerLocalFileData.css';
 import { withTranslation } from 'react-i18next';
+import fetchProgress from 'fetch-progress';
+
 const JSZip = require('JSZip');
 
 const { OHIFStudyMetadata } = metadata;
@@ -21,6 +24,7 @@ class ViewerLocalFileData extends Component {
   state = {
     studies: null,
     loading: false,
+    progress: 0,
     error: null,
   };
 
@@ -61,7 +65,17 @@ class ViewerLocalFileData extends Component {
       const url = urlParams.get('url');
       if (!url) return;
       this.setState({ loading: true });
-      const data = await fetch(url).then(response => response.blob());
+      const data = await fetch(url)
+        .then(
+          fetchProgress({
+            onProgress: progress => {
+              this.setState({
+                progress: progress.percentage,
+              });
+            },
+          })
+        )
+        .then(response => response.blob());
       const zip = new JSZip();
       const content = await zip.loadAsync(data);
       const files = [];
@@ -101,7 +115,13 @@ class ViewerLocalFileData extends Component {
               <div className={'drag-drop-instructions'}>
                 <div className={'drag-drop-contents'}>
                   {this.state.loading ? (
-                    <h3>{this.props.t('Loading...')}</h3>
+                    <>
+                      <Bar progress={this.state.progress / 100} />
+                      <h3>
+                        {this.props.t('Loading...')}
+                        {this.state.progress}%
+                      </h3>
+                    </>
                   ) : (
                     <>
                       <h3 style={{ cursor: 'pointer' }} onClick={onLoad}>
